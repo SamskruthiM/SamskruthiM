@@ -4,82 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"  content="my website">
     <title>Samskruhti Reddy</title>
-    <script type="text/javascript">
-      function startTime()
-      {
-      var today=new Date();
-      var h=today.getHours();
-      var m=today.getMinutes();
-      var s=today.getSeconds();
-      // add a zero in front of numbers<10
-      m=checkTime(m);
-      s=checkTime(s);
-      document.getElementById('txt').innerHTML=h+":"+m+":"+s;
-      t=setTimeout('startTime()',500);
-      }
-      function checkTime(i)
-      {
-      if (i<10)
-      {
-      i="0" + i;
-      }
-      return i;
-      }
-      </script>
-      </head>
-      <body onload="startTime()">
-      <div id="txt"></div>
-      <p> <script type="text/javascript">
-        document.write ('<p><span id="date-time">', new Date().toLocaleString(), '<\/span>.<\/p>')
-        if (document.getElementById) onload = function () {
-          setInterval ("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50)
-        }
-        </script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
       </body>
       </html>
 </head>
 <body>
- <style>
-
-    body {
-        background-image: url(photo-1533628635777-112b2239b1c7.jfif);
-        background-position: top;
-        background-repeat: no-repeat;
-        background-size: cover;
+ <h7> <script type="text/javascript">
+    function startTime()
+    {
+    var today=new Date();
+    var h=today.getHours();
+    var m=today.getMinutes();
+    var s=today.getSeconds();
+    // add a zero in front of numbers<10
+    m=checkTime(m);
+    s=checkTime(s);
+    document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+    t=setTimeout('startTime()',500);
     }
-    h1 {
-      font-style: italic;
-      font-size: xx-large;
-      font-weight: bold;
+    function checkTime(i)
+    {
+    if (i<10)
+    {
+    i="0" + i;
     }
-h4 {font-size: xx-large;
-font-weight: bold;
-}
-
-</style>
-
-<style>
-  .html-marquee {
-    height:200px;
-    width:400px;
-    background-color:whitesmoke;
-    font-family:Helvetica;
-    font-size:100px;
-    color:#00a7f7;
-    font-style:italic;
-    font-weight:bold;
-    border-width:4;
-    border-style:double;
-    border-color:#000000;
-  }
-  </style>
-  <marquee direction="left" width="100%" height="50%" behavior="alternate" style="border:solid">
-  
-    <h4>HELLO!!</h4>
-    </marquee>
-  </marquee>
-  <center>  
+    return i;
+    }
+    </script>
+    </head>
+    <body onload="startTime()">
+    <div id="txt"></div>
+    <p> <script type="text/javascript">
+      document.write ('<p><span id="date-time">', new Date().toLocaleString(), '<\/span>.<\/p>')
+      if (document.getElementById) onload = function () {
+        setInterval ("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50)
+      }
+      </script></h7>
+      <div class="icon-bar">
+        <a class="active" href="#"><i class="fa fa-home"></i></a> 
+  <a href="https://samskruthim.github.io/"><i class="fa fa-search"></i></a> 
+  <a href=""><i class="fa fa-envelope"></i></a> 
+  <a href="#"><i class="fa fa-globe"></i></a>
+  <a href="#"><i class="fa fa-trash"></i></a>
+      </div>
+   <center>  
         <h1>Samskruthi Reddy </h1>
          <a href="https://www.instagram.com/samskruthi1721/" target="_blank">Click here to search </a>
         <p> PES1201800869 </p> 
@@ -89,12 +59,11 @@ font-weight: bold;
         <P>Im one person, you would never meet another one like me in your life.</P>
         <p>Where ever I go I always end up in book store near by, if I ever get lost first search in book store nearby.</p>
         <ul>
-          <li>I dont mind helping people</li>
-          <li>i would prefer books over movies</li>
-          <li>coffee over tea</li>
-          <li>black over any colour</li>
-          <li>party over a movie night</li>
-          <li>if there was a possibility i would choose to sketch feather forever </li>
+          <li>I would prefer books over movies</li>
+          <li>Coffee over tea</li>
+          <li>Black over any colour</li>
+          <li>Party over a movie night</li>
+          <li>If there was a possibility I would choose to sketch feather forever </li>
         </ul>
       <p>  
         <iframe width="560" height="315" src="https://www.youtube.com/embed/uj8rMWAdbeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -115,9 +84,10 @@ font-weight: bold;
       <td> Eve</td>
       <td> Jackson </td>
       <td> 39</td>  
+     
       <h3>Feedback</h3>
-      <p>E-mail:<input type="email" ></p>
-      <p>Suggestion: <input type="text"></p>
+      <p>E-mail:<input type="email" > <button>submit</button></p>
+      <p>Suggestion: <input type="paragraph"> <button>submit</button></p>
     </center> 
 </body>
 </html>
